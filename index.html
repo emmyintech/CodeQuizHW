@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+
+
+    <nav id="navit" class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <button id="highscores" class="btn btn-outline-success navbutton" type="button"> <a class="nav-link" href="highscores.html">View High Scores</a></button>
+
+
+            <div id="timer">Timer
+
+                <div id="counter"></div>
+
+            </div>
+        </form>
+    </nav>
+
+
+
+    <div id="container">
+        <div id="start"><br>Welcome to the Quiz! <br> Click here when you <br> are ready to begin!</div>
+
+        <div id="startinfo">
+            <ul>
+                <li>Complete quiz within the time limit
+                    <li>Click on the correct answer</li>
+                    <li>Good Luck!</li>
+            </ul>
+
+
+
+
+
+
+
+        </div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+
+        </div>
+        <div id="scoreDiv" style="display: none">
+            <!-- <h1>Good job!</h1> -->
+            <p></p>
+
+
+
+
+
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
