@@ -36,7 +36,7 @@ var questions = [{
         correct: "C"
     },
     {
-        question: "What color is the sky",
+        question: "What color is the sky?",
         choiceA: "Pink",
         choiceB: "Green",
         choiceC: "Blue",
@@ -56,7 +56,7 @@ var questions = [{
         correct: "B"
     }, {
         question: "How many days does it take the Earth to travel around the sun?",
-        choiceA: "365 day",
+        choiceA: "365 days",
         choiceB: "1 day",
         choiceC: "30 days",
         correct: "A"
