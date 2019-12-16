@@ -55,28 +55,28 @@ var questions = [{
         choiceC: "22,107 miles",
         correct: "B"
     }, {
-        question: "The Earth revolves around?",
-        choiceA: "The Sun",
-        choiceB: "Itself",
-        choiceC: "The Moon",
+        question: "How many days does it take the Earth to travel around the sun?",
+        choiceA: "365 day",
+        choiceB: "1 day",
+        choiceC: "30 days",
         correct: "A"
     }, {
-        question: "Why not",
-        choiceA: "Wrong",
-        choiceB: "Wrong",
-        choiceC: "Correct",
+        question: "The ocean covers what percentage of the Earth?",
+        choiceA: "59%",
+        choiceB: "65%",
+        choiceC: "71 %",
         correct: "C"
     }, {
-        question: "The Earth revolves around?",
-        choiceA: "The Sun",
-        choiceB: "Itself",
-        choiceC: "The Moon",
+        question: "What galaxy is the Earth located in?",
+        choiceA: "The Milky Way",
+        choiceB: "The Black Hole",
+        choiceC: "The Twilight Zone",
         correct: "A"
     }, {
-        question: "Helllloooo?",
-        choiceA: "Wrong",
-        choiceB: "Wrong",
-        choiceC: "Correct",
+        question: "Who was the first to publish a theory of gravity?",
+        choiceA: "Michael Jordan",
+        choiceB: "Albert Einstein",
+        choiceC: "Sir Isaac Newton",
         correct: "C"
     }
 ];
@@ -234,13 +234,10 @@ function scoreRender() {
     // scoreDiv.innerHTML += "Enter your name: " + "<input type='text' name='usrname'>" +
     //     "<input type='submit' value='Submit'>";
 
-    belowQuiz.innerHTML = "Enter your name: " + "<input type='text' name='usrname'>" +
-        "<input id='sub' type='submit' value='Submit'>";
+    belowQuiz.innerHTML = "Enter your initials: " + "<input id='sub1' type='text' name='username'>" +
+        "<input id='sub2' type='submit' value='Submit'>";
 
     // function submitHighScore {
     //     document.getElementById("sub")
     // }
-
-
-
 }
