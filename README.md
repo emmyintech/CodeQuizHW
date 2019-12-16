@@ -1,6 +1,6 @@
 # CodeQuizHW
 
-This project is an online quiz with a timer and interactive moving through the questions. This porject uses HTML, CSS, & JavaScript. The user has a time limit to complete the quiz in and they lose 10 seconds for each wrong answer. There is a total of 10 questions and the user has 150 seconds to take the quiz. The timer begins when the user clicks on the start button.
+This project is an online quiz with a timer and interactive moving through the questions. This project uses HTML, CSS, and JavaScript. The user has a time limit to complete the quiz in and they lose 10 seconds for each wrong answer. There is a total of 10 questions and the user has 150 seconds to take the quiz. The timer begins when the user clicks on the start button.
 
 
 
