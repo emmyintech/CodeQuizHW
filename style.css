@@ -91,12 +91,17 @@ body {
     float: right;
     font-size: 25px;
     font-weight: bolder;
-    height: 100px;
+    height: 50px;
     width: 400px;
     bottom: 0px;
-    text-align: right;
+    background-color: rgb(162, 152, 248) !important;
+    box-shadow: 2px 2px 1px 1px black !important;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
     margin-right: 30px;
-    margin-top: 40px;
+    margin-top: 35px;
+    padding-top: 5px;
 }
 
 #progress {
@@ -208,7 +213,7 @@ body {
 
 #leftBTN {
     border: none;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     background-color: rgb(162, 152, 248) !important;
     box-shadow: 2px 2px 1px 1px black !important;
