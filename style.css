@@ -177,7 +177,8 @@ body {
     left: 120px;
     bottom: 60px;
     right: 50px;
-    width: 350px;
+    width: 400px;
+    margin-top: 10px;
     text-align: center;
     list-style-position: inside;
     font-weight: bolder;
@@ -247,23 +248,23 @@ body {
     text-align: center;
 }
 
-.left,
+
+/* .left,
 .right {
     float: left;
     width: 20%;
     /* The width is 20%, by default */
-}
 
+
+}
 .main {
     float: left;
     width: 60%;
     /* The width is 60%, by default */
 }
-
-
+*/
 /* Use a media query to add a breakpoint at 800px: */
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     .left,
     .main,
     .right {
