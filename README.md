@@ -22,5 +22,5 @@ A screenshot of a presented score and finished quiz.
 
 ## Authors
 
-* **Emily Schippnick** - *Initial work* - [EmmysCode](https://github.com/emmyscode)
+* **Emmy Schippnick** - *Initial work* - [Emmyintech](https://github.com/emmyintech)
 
